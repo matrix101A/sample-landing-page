@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import FillDetails from "./components/FillDetails";
+import React, { useEffect } from "react";
+import Home from "./components/Home";
+import HomePage from "./components/HomePage";
+import Tnc from "./components/Tnc";
 function App() {
+  useEffect(() => {});
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        {/* Like trational switch in programming  */}
+        <Route exact path="/details">
+          <FillDetails />
+        </Route>
+        <Route exact path="/tnc">
+          <Tnc />
+        </Route>
+        <Route exact path="/profile">
+          <HomePage />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

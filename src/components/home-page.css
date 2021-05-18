@@ -1,0 +1,30 @@
+.header {
+  background-color: #010e1f !important;
+
+  height: 70px;
+  color: white;
+}
+.navbar {
+  background-color: #010e1f !important;
+}
+.container-fluid {
+  padding: 0% !important;
+}
+.content {
+  background-color: white;
+  color: black;
+}
+h1 h2 h3 h4 h5 h5 {
+  color: black !important;
+}
+.services {
+  text-align: center;
+}
+td {
+  height: 70px;
+  padding: 50%;
+  text-align: center;
+}
+.card-img-top {
+  height: 250px !important;
+}

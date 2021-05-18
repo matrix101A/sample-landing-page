@@ -1,0 +1,44 @@
+body {
+  background-color: #3399da;
+}
+#phone-number {
+  width: 100%;
+}
+.blank {
+  height: 10vw;
+  background-color: white;
+}
+.welcome {
+  height: 30vw;
+  background-color: #2ecfff;
+  padding-top: 9.5%;
+}
+.welcome h1 {
+  font-size: 7vw;
+  color: aliceblue;
+  text-align: center;
+}
+.welcome h4 {
+  font-size: 4vw;
+  color: aliceblue;
+  text-align: center;
+}
+#enter-otp {
+  width: 100%;
+}
+#submit {
+  background-color: green;
+}
+.btn {
+  background-color: green;
+}
+
+.form {
+  background-color: white;
+  padding: 10%;
+  margin-top: 100px;
+}
+
+.message {
+  color: green;
+}
