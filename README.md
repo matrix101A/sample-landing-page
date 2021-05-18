@@ -1,1 +1,1 @@
-This is my submission for PClub task - This is a sample landing page, complete with a login functionality, everyting is dynamically genrated from firebase. The deployed app can be viewed as - https://web-dev-assignment-a7da3.firebaseapp.com/
+This is my submission for PClub task - This is a sample landing page, complete with a login functionality,the frontend is made of react and  everyting is dynamically genrated from firebase. The deployed app can be viewed as - https://web-dev-assignment-a7da3.firebaseapp.com/
